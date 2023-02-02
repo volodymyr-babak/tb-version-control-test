@@ -1,7 +1,7 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "assignedCustomers" : null,
+    "assignedCustomers" : [ ],
     "configuration" : {
       "description" : "",
       "widgets" : {
@@ -30,8 +30,8 @@
                 "interval" : 1000,
                 "timewindowMs" : 60000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1675248186285,
-                  "endTimeMs" : 1675334586285
+                  "startTimeMs" : 1675249156231,
+                  "endTimeMs" : 1675335556231
                 },
                 "quickInterval" : "CURRENT_DAY"
               },
@@ -115,8 +115,8 @@
           "filter" : {
             "type" : "deviceType",
             "resolveMultiple" : true,
-            "deviceType" : "thermostat",
-            "deviceNameFilter" : ""
+            "deviceNameFilter" : "",
+            "deviceTypes" : [ "thermostat" ]
           }
         },
         "96e23674-db76-19b1-d5be-1dae203fc235" : {
@@ -191,7 +191,10 @@
         "toolbarAlwaysOpen" : true
       }
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a86c47e0-a169-11ed-84f7-cba9ad377f83"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "a86c47e0-a169-11ed-84f7-cba9ad377f83"
