@@ -1,0 +1,208 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "824c9a8c-33bf-96e1-db28-1cea76385c40" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1675248186285,
+                  "endTimeMs" : 1675334586285
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "entitiesTitle" : "",
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "entityNameColumnTitle" : "",
+              "displayEntityLabel" : false,
+              "displayEntityType" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "d1251518-f8e6-142d-4ab7-59e21d69cc64",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ],
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "824c9a8c-33bf-96e1-db28-1cea76385c40"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Multiple Aliases",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "824c9a8c-33bf-96e1-db28-1cea76385c40" : {
+                  "sizeX" : 18,
+                  "sizeY" : 8,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "ce077b0d-408b-15a5-552e-bf6bd92b967f" : {
+          "id" : "ce077b0d-408b-15a5-552e-bf6bd92b967f",
+          "alias" : "Device Type Filter test",
+          "filter" : {
+            "type" : "deviceType",
+            "resolveMultiple" : true,
+            "deviceTypes" : [ "thermostat", "Custom Device Profile", "default" ],
+            "deviceNameFilter" : ""
+          }
+        },
+        "96e23674-db76-19b1-d5be-1dae203fc235" : {
+          "id" : "96e23674-db76-19b1-d5be-1dae203fc235",
+          "alias" : "Asset type filter",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetTypes" : [ "DESK", "TbServiceQueue", "default" ],
+            "assetNameFilter" : ""
+          }
+        },
+        "99f6dcc8-cf14-5d35-1e68-229f7014c138" : {
+          "id" : "99f6dcc8-cf14-5d35-1e68-229f7014c138",
+          "alias" : "EV type",
+          "filter" : {
+            "type" : "entityViewType",
+            "resolveMultiple" : true,
+            "entityViewTypes" : [ "one more" ],
+            "entityViewNameFilter" : ""
+          }
+        },
+        "d1251518-f8e6-142d-4ab7-59e21d69cc64" : {
+          "id" : "d1251518-f8e6-142d-4ab7-59e21d69cc64",
+          "alias" : "Edge Type",
+          "filter" : {
+            "type" : "edgeType",
+            "resolveMultiple" : true,
+            "edgeTypes" : [ "default", "timmi" ],
+            "edgeNameFilter" : ""
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideLastInterval" : false,
+        "hideQuickInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1675084669589,
+            "endTimeMs" : 1675171069589
+          },
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a86c47e0-a169-11ed-84f7-cba9ad377f83"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Multiple Aliases",
+    "title" : "Multiple Aliases"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
