@@ -115,7 +115,7 @@
           "filter" : {
             "type" : "deviceType",
             "resolveMultiple" : true,
-            "deviceTypes" : [ "thermostat", "Custom Device Profile", "default" ],
+            "deviceType" : "thermostat",
             "deviceNameFilter" : ""
           }
         },
